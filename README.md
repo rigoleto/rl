@@ -1,4 +1,4 @@
-Heidi
+RL
 =====
 
-Heidi is a port of Mark Otto's Hyde theme (of Jekyll fame) to Ghost.
+Fork of the Heidi theme for Ghost.
