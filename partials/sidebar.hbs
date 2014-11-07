@@ -1,5 +1,9 @@
-<div class="sidebar" style="background: url({{@blog.cover}}) #000 no-repeat; background-size: contain">
-  <div class="container sidebar-sticky">
+<div class="sidebar">
+  <div class="sidebar-sticky container">
+    <div class="sidebar-image">
+      <img src="{{@blog.cover}}" />
+    </div>
+
     <div class="sidebar-about">
       <h1>{{@blog.title}}</h1>
       <p class="lead">{{@blog.description}}</p>
@@ -11,6 +15,6 @@
       </li>
     </ul>
 
-    <p>&copy; {{date format='YYYY'}}. All rights reserved.</p>
+    <p class="copyright">&copy; {{date format='YYYY'}}. All rights reserved.</p>
   </div>
 </div>
