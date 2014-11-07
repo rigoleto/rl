@@ -1,0 +1,25 @@
+{
+  "name": "rl",
+  "version": "0.2.0",
+  "homepage": "https://github.com/rigoleto/rl",
+  "authors": [
+    "Reid <reid.lynch@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "prism": "git@github.com:LeaVerou/prism.git#gh-pages"
+  },
+  "overrides": {
+    "prism": {
+      "main": ["themes/prism.css", "prism.js", "components/*.min.js"]
+    }
+  }
+}
